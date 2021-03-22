@@ -1,0 +1,69 @@
+.header {
+    height: 60px;
+    display: flex; /* Puts everything in a row */
+    align-items: center;
+    background-color: #131921;
+    position: sticky; /* Keeps it anchored at left corner, and after scrolling */
+    top: 0;
+    z-index: 100; /* Highest z-inndex makes it stacked in fron of everything */
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain; /* fits element, scales but keeping aspect ratio */
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header_searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
+
+.header__search {
+    display: flex;
+    flex: 1; /* Stretch as much as it can go */
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly; /* shares space equally between options*/
+}
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}

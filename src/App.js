@@ -1,11 +1,11 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
   // BEM naming convention
   return (
     <div className="app">
-      <p>Amazon Clone</p>
-      {/* Header */}
+      <Header />
       {/* Home */}
     </div>
   );
