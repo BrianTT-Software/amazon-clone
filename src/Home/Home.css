@@ -2,7 +2,7 @@
     width: 100%; /* Matches screen width exactly */
     z-index: -1;
     margin-bottom: -150px; /* Elements after it will creep in 150px, on top of */
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 .home {
